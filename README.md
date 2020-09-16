@@ -1,38 +1,14 @@
 ---test-embroider-in-addon-development
 ==============================================================================
 
-[Short description of the addon.]
+Test repo to demonstrate https://github.com/embroider-build/embroider/issues/532.
 
-
-Compatibility
+Steps to reproduce
 ------------------------------------------------------------------------------
 
-* Ember.js v3.16 or above
-* Ember CLI v2.13 or above
-* Node.js v10 or above
+1. `git clone git@github.com:rwjblue/___test-embroider-in-addon-development.git`
+1. `cd ___test-embroider-in-addon-development`
+1. `npm ci`
+1. `ember s`
+1. Edit addon/helpers/say-something.js, notice no updates
 
-
-Installation
-------------------------------------------------------------------------------
-
-```
-ember install ---test-embroider-in-addon-development
-```
-
-
-Usage
-------------------------------------------------------------------------------
-
-[Longer description of how to use the addon in apps.]
-
-
-Contributing
-------------------------------------------------------------------------------
-
-See the [Contributing](CONTRIBUTING.md) guide for details.
-
-
-License
-------------------------------------------------------------------------------
-
-This project is licensed under the [MIT License](LICENSE.md).
